@@ -36,6 +36,7 @@ Description: c++ wrapper library for gpgme
  This package is part of the KDE Development Platform PIM libraries module.
 
 Package: libkf5gpgmepp-dev
+Section : libdevel
 Architecture: any
 Multi-Arch: foreign
 Depends: libkf5gpgmepp-pthread5 (= ${binary:Version}),
