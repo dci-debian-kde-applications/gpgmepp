@@ -1,0 +1,8 @@
+usr/include/KF5/gpgme++/
+usr/include/KF5/gpgmepp_version.h
+usr/include/KF5/qgpgme/
+usr/lib/*/cmake/KF5Gpgmepp/
+usr/lib/*/libKF5Gpgmepp-pthread.so
+usr/lib/*/libKF5Gpgmepp.so
+usr/lib/*/libKF5QGpgme.so
+usr/lib/*/qt5/mkspecs/modules/qt_QGpgme.pri

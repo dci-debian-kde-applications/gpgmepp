@@ -1,0 +1,70 @@
+Source: gpgmepp
+Section: libs
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 5.12.0~),
+               libboost-dev,
+               libgpgme11-dev,
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev
+Standards-Version: 3.9.6
+XS-Testsuite: autopkgtest
+Homepage: https://projects.kde.org/projects/kde/pim/gpgmepp
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/gpgmepp.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/gpgmepp.git
+
+Package: libkf5gpgmepp5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: c++ wrapper library for gpgme
+ GpgME++ is a C++ wrapper (or C++ bindings) for the GnuPG project's gpgme
+ (GnuPG Made Easy) library.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkf5gpgmepp-pthread5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: c++ wrapper library for gpgme
+ GpgME++ is a C++ wrapper (or C++ bindings) for the GnuPG project's gpgme
+ (GnuPG Made Easy) library.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkf5gpgmepp-dev
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: c++ wrapper library for gpgme - development files
+ GpgME++ is a C++ wrapper (or C++ bindings) for the GnuPG project's gpgme
+ (GnuPG Made Easy) library.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkf5qgpgme5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0)
+Breaks: kdepimlibs5 (<< 4:4.4.0)
+Description: library for GpgME++ integration with Qt
+ QGpgME is a library that provides GpgME++ integration with QEventLoop
+ and some Qt datatypes (e.g. QByteArray).
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: gpgmepp-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Multi-Arch: same
+Depends: libkf5gpgmepp5 (= ${binary:Version}) | libkf5gpgmepp-pthread5 (= ${binary:Version}) | libkf5qgpgme5 (= ${binary:Version}),
+         ${misc:Depends}
+Description: c++ wrapper library for gpgme - debug symbols
+ GpgME++ is a C++ wrapper (or C++ bindings) for the GnuPG project's gpgme
+ (GnuPG Made Easy) library.
+ .
+ This package contains the debug symbols.
