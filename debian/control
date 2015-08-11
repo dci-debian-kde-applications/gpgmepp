@@ -38,7 +38,11 @@ Description: c++ wrapper library for gpgme
 Package: libkf5gpgmepp-dev
 Architecture: any
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libkf5gpgmepp-pthread5 (= ${binary:Version}),
+         libkf5gpgmepp5 (= ${binary:Version}),
+         libkf5qgpgme5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: c++ wrapper library for gpgme - development files
  GpgME++ is a C++ wrapper (or C++ bindings) for the GnuPG project's gpgme
  (GnuPG Made Easy) library.
