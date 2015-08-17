@@ -23,18 +23,18 @@ libKF5QGpgme.so.5 libkf5qgpgme5 #MINVER#
  _ZN6QGpgME19EventLoopInteractorD0Ev@Base 15.07.90
  _ZN6QGpgME19EventLoopInteractorD1Ev@Base 15.07.90
  _ZN6QGpgME19EventLoopInteractorD2Ev@Base 15.07.90
- _ZN6QGpgME21QIODeviceDataProvider4readEPvm@Base 15.07.90
- _ZN6QGpgME21QIODeviceDataProvider4seekEli@Base 15.07.90
- _ZN6QGpgME21QIODeviceDataProvider5writeEPKvm@Base 15.07.90
+ (subst)_ZN6QGpgME21QIODeviceDataProvider4readEPv{size_t}@Base 15.07.90
+ (subst)_ZN6QGpgME21QIODeviceDataProvider4seekE{int64_t}i@Base 15.07.90
+ (subst)_ZN6QGpgME21QIODeviceDataProvider5writeEPKv{size_t}@Base 15.07.90
  _ZN6QGpgME21QIODeviceDataProvider7releaseEv@Base 15.07.90
  _ZN6QGpgME21QIODeviceDataProviderC1ERKN5boost10shared_ptrI9QIODeviceEE@Base 15.07.90
  _ZN6QGpgME21QIODeviceDataProviderC2ERKN5boost10shared_ptrI9QIODeviceEE@Base 15.07.90
  _ZN6QGpgME21QIODeviceDataProviderD0Ev@Base 15.07.90
  _ZN6QGpgME21QIODeviceDataProviderD1Ev@Base 15.07.90
  _ZN6QGpgME21QIODeviceDataProviderD2Ev@Base 15.07.90
- _ZN6QGpgME22QByteArrayDataProvider4readEPvm@Base 15.07.90
- _ZN6QGpgME22QByteArrayDataProvider4seekEli@Base 15.07.90
- _ZN6QGpgME22QByteArrayDataProvider5writeEPKvm@Base 15.07.90
+ (subst)_ZN6QGpgME22QByteArrayDataProvider4readEPv{size_t}@Base 15.07.90
+ (subst)_ZN6QGpgME22QByteArrayDataProvider4seekE{int64_t}i@Base 15.07.90
+ (subst)_ZN6QGpgME22QByteArrayDataProvider5writeEPKv{size_t}@Base 15.07.90
  _ZN6QGpgME22QByteArrayDataProvider7releaseEv@Base 15.07.90
  _ZN6QGpgME22QByteArrayDataProviderC1ERK10QByteArray@Base 15.07.90
  _ZN6QGpgME22QByteArrayDataProviderC1Ev@Base 15.07.90
