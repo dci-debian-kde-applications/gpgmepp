@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64
+# SymbolsHelper-Confirmed: 4:15.07.90 amd64 i386
 libKF5Gpgmepp.so.5 libkf5gpgmepp5 #MINVER#
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 15.07.90
  _ZN5GpgME10EngineInfoC1Ev@Base 15.07.90
@@ -153,7 +153,7 @@ libKF5Gpgmepp.so.5 libkf5gpgmepp5 #MINVER#
  _ZN5GpgME19KeyGenerationResultC2EP13gpgme_contexti@Base 15.07.90
  _ZN5GpgME19KeyGenerationResultC2ERKNS_5ErrorE@Base 15.07.90
  _ZN5GpgME19KeyGenerationResultC2Ev@Base 15.07.90
- _ZN5GpgME24DefaultAssuanTransaction4dataEPKcm@Base 15.07.90
+ (subst)_ZN5GpgME24DefaultAssuanTransaction4dataEPKc{size_t}@Base 15.07.90
  _ZN5GpgME24DefaultAssuanTransaction6statusEPKcS2_@Base 15.07.90
  _ZN5GpgME24DefaultAssuanTransaction7inquireEPKcS2_RNS_5ErrorE@Base 15.07.90
  _ZN5GpgME24DefaultAssuanTransactionC1Ev@Base 15.07.90
@@ -179,7 +179,7 @@ libKF5Gpgmepp.so.5 libkf5gpgmepp5 #MINVER#
  _ZN5GpgME26GpgAddUserIDEditInteractorD0Ev@Base 15.07.90
  _ZN5GpgME26GpgAddUserIDEditInteractorD1Ev@Base 15.07.90
  _ZN5GpgME26GpgAddUserIDEditInteractorD2Ev@Base 15.07.90
- _ZN5GpgME27ScdGetInfoAssuanTransaction4dataEPKcm@Base 15.07.90
+ (subst)_ZN5GpgME27ScdGetInfoAssuanTransaction4dataEPKc{size_t}@Base 15.07.90
  _ZN5GpgME27ScdGetInfoAssuanTransaction6statusEPKcS2_@Base 15.07.90
  _ZN5GpgME27ScdGetInfoAssuanTransaction7inquireEPKcS2_RNS_5ErrorE@Base 15.07.90
  _ZN5GpgME27ScdGetInfoAssuanTransactionC1ENS0_8InfoItemE@Base 15.07.90
@@ -197,7 +197,7 @@ libKF5Gpgmepp.so.5 libkf5gpgmepp5 #MINVER#
  _ZN5GpgME30GpgSetOwnerTrustEditInteractorD0Ev@Base 15.07.90
  _ZN5GpgME30GpgSetOwnerTrustEditInteractorD1Ev@Base 15.07.90
  _ZN5GpgME30GpgSetOwnerTrustEditInteractorD2Ev@Base 15.07.90
- _ZN5GpgME32GpgAgentGetInfoAssuanTransaction4dataEPKcm@Base 15.07.90
+ (subst)_ZN5GpgME32GpgAgentGetInfoAssuanTransaction4dataEPKc{size_t}@Base 15.07.90
  _ZN5GpgME32GpgAgentGetInfoAssuanTransaction6statusEPKcS2_@Base 15.07.90
  _ZN5GpgME32GpgAgentGetInfoAssuanTransaction7inquireEPKcS2_RNS_5ErrorE@Base 15.07.90
  _ZN5GpgME32GpgAgentGetInfoAssuanTransactionC1ENS0_8InfoItemE@Base 15.07.90
@@ -218,27 +218,27 @@ libKF5Gpgmepp.so.5 libkf5gpgmepp5 #MINVER#
  _ZN5GpgME4Data11setEncodingENS0_8EncodingE@Base 15.07.90
  _ZN5GpgME4Data11setFileNameEPKc@Base 15.07.90
  _ZN5GpgME4Data4nullE@Base 15.07.90
- _ZN5GpgME4Data4readEPvm@Base 15.07.90
- _ZN5GpgME4Data4seekEli@Base 15.07.90
- _ZN5GpgME4Data5writeEPKvm@Base 15.07.90
+ (subst)_ZN5GpgME4Data4readEPv{size_t}@Base 15.07.90
+ (subst)_ZN5GpgME4Data4seekE{int64_t}i@Base 15.07.90
+ (subst)_ZN5GpgME4Data5writeEPKv{size_t}@Base 15.07.90
  _ZN5GpgME4Data7PrivateD1Ev@Base 15.07.90
  _ZN5GpgME4Data7PrivateD2Ev@Base 15.07.90
  _ZN5GpgME4DataC1EP10gpgme_data@Base 15.07.90
  _ZN5GpgME4DataC1EP8_IO_FILE@Base 15.07.90
- _ZN5GpgME4DataC1EP8_IO_FILElm@Base 15.07.90
+ (subst)_ZN5GpgME4DataC1EP8_IO_FILE{int64_t}{size_t}@Base 15.07.90
  _ZN5GpgME4DataC1EPKc@Base 15.07.90
- _ZN5GpgME4DataC1EPKclm@Base 15.07.90
- _ZN5GpgME4DataC1EPKcmb@Base 15.07.90
+ (subst)_ZN5GpgME4DataC1EPKc{int64_t}{size_t}@Base 15.07.90
+ (subst)_ZN5GpgME4DataC1EPKc{size_t}b@Base 15.07.90
  _ZN5GpgME4DataC1EPNS_12DataProviderE@Base 15.07.90
  _ZN5GpgME4DataC1ERKNS0_4NullE@Base 15.07.90
  _ZN5GpgME4DataC1Ei@Base 15.07.90
  _ZN5GpgME4DataC1Ev@Base 15.07.90
  _ZN5GpgME4DataC2EP10gpgme_data@Base 15.07.90
  _ZN5GpgME4DataC2EP8_IO_FILE@Base 15.07.90
- _ZN5GpgME4DataC2EP8_IO_FILElm@Base 15.07.90
+ (subst)_ZN5GpgME4DataC2EP8_IO_FILE{int64_t}{size_t}@Base 15.07.90
  _ZN5GpgME4DataC2EPKc@Base 15.07.90
- _ZN5GpgME4DataC2EPKclm@Base 15.07.90
- _ZN5GpgME4DataC2EPKcmb@Base 15.07.90
+ (subst)_ZN5GpgME4DataC2EPKc{int64_t}{size_t}@Base 15.07.90
+ (subst)_ZN5GpgME4DataC2EPKc{size_t}b@Base 15.07.90
  _ZN5GpgME4DataC2EPNS_12DataProviderE@Base 15.07.90
  _ZN5GpgME4DataC2ERKNS0_4NullE@Base 15.07.90
  _ZN5GpgME4DataC2Ei@Base 15.07.90
@@ -704,25 +704,25 @@ libKF5Gpgmepp.so.5 libkf5gpgmepp5 #MINVER#
  _ZNK5GpgME9TrustItem5keyIDEv@Base 15.07.90
  _ZNK5GpgME9TrustItem6isNullEv@Base 15.07.90
  _ZNK5GpgME9TrustItem6userIDEv@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED1Ev@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED2Ev@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EE17_M_default_appendEm@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED1Ev@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED2Ev@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED1Ev@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED2Ev@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EE17_M_default_appendEm@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED1Ev@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EED2Ev@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE7reserveEm@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE7reserveEm@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EE7reserveEm@Base 15.07.90
+ (optional=templinst|subst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EE7reserveE{size_t}@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
@@ -733,7 +733,7 @@ libKF5Gpgmepp.so.5 libkf5gpgmepp5 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE7reserveEm@Base 15.07.90
+ (optional=templinst|subst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE7reserveE{size_t}@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
@@ -742,7 +742,7 @@ libKF5Gpgmepp.so.5 libkf5gpgmepp5 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE7reserveEm@Base 15.07.90
+ (optional=templinst|subst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE7reserveE{size_t}@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
@@ -751,9 +751,11 @@ libKF5Gpgmepp.so.5 libkf5gpgmepp5 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE7reserveEm@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE7reserveEm@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EED2Ev@Base 15.07.90
+ (optional=templinst|arch=i386)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 4:15.07.90
+ (optional=templinst|arch=i386)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 4:15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIRKS5_EEEvDpOT_@Base 15.07.90
@@ -772,10 +774,10 @@ libKF5Gpgmepp.so.5 libkf5gpgmepp5 #MINVER#
  (optional=templinst)_ZNSt6vectorIS_IN5GpgME18VerificationResult7Private4NotaESaIS3_EESaIS5_EE19_M_emplace_back_auxIJS5_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_ESaIS7_EE19_M_emplace_back_auxIIS7_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_ESaIS7_EE19_M_emplace_back_auxIJS7_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIIRKiEEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJRKiEEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIIRKjEEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIJRKjEEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIIRKiEEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJRKiEEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIIRKjEEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIJRKjEEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIjSaIjEEaSERKS1_@Base 15.07.90
  _ZTIN5GpgME14EditInteractorE@Base 15.07.90
  _ZTIN5GpgME17AssuanTransactionE@Base 15.07.90

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64
+# SymbolsHelper-Confirmed: 4:15.07.90 amd64 i386
 libKF5QGpgme.so.5 libkf5qgpgme5 #MINVER#
  _ZN6QGpgME19EventLoopInteractor11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN6QGpgME19EventLoopInteractor11qt_metacastEPKc@Base 15.07.90
@@ -53,7 +53,6 @@ libKF5QGpgme.so.5 libkf5qgpgme5 #MINVER#
  _ZTSN6QGpgME19EventLoopInteractorE@Base 15.07.90
  _ZTSN6QGpgME21QIODeviceDataProviderE@Base 15.07.90
  _ZTSN6QGpgME22QByteArrayDataProviderE@Base 15.07.90
- _ZTVN5GpgME12DataProviderE@Base 15.07.90
  _ZTVN6QGpgME19EventLoopInteractorE@Base 15.07.90
  _ZTVN6QGpgME21QIODeviceDataProviderE@Base 15.07.90
  _ZTVN6QGpgME22QByteArrayDataProviderE@Base 15.07.90

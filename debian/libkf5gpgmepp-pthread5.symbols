@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64
+# SymbolsHelper-Confirmed: 4:15.07.90 amd64 i386
 libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 15.07.90
  _ZN5GpgME10EngineInfoC1Ev@Base 15.07.90
@@ -58,8 +58,6 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZN5GpgME13KeyListResultC2ERKNS_5ErrorE@Base 15.07.90
  _ZN5GpgME13KeyListResultC2ERKNS_5ErrorERK24_gpgme_op_keylist_result@Base 15.07.90
  _ZN5GpgME13KeyListResultC2Ev@Base 15.07.90
- _ZN5GpgME13KeyListResultD1Ev@Base 15.07.90
- _ZN5GpgME13KeyListResultD2Ev@Base 15.07.90
  _ZN5GpgME13SigningResult4initEP13gpgme_context@Base 15.07.90
  _ZN5GpgME13SigningResultC1EP13gpgme_contextRKNS_5ErrorE@Base 15.07.90
  _ZN5GpgME13SigningResultC1EP13gpgme_contexti@Base 15.07.90
@@ -69,8 +67,6 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZN5GpgME13SigningResultC2EP13gpgme_contexti@Base 15.07.90
  _ZN5GpgME13SigningResultC2ERKNS_5ErrorE@Base 15.07.90
  _ZN5GpgME13SigningResultC2Ev@Base 15.07.90
- _ZN5GpgME13SigningResultD1Ev@Base 15.07.90
- _ZN5GpgME13SigningResultD2Ev@Base 15.07.90
  _ZN5GpgME13getGIOChannelEi@Base 15.07.90
  _ZN5GpgME14EditInteractor15setDebugChannelEP8_IO_FILE@Base 15.07.90
  _ZN5GpgME14EditInteractor7PrivateC1EPS0_@Base 15.07.90
@@ -106,8 +102,6 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZN5GpgME16DecryptionResultC2EP13gpgme_contexti@Base 15.07.90
  _ZN5GpgME16DecryptionResultC2ERKNS_5ErrorE@Base 15.07.90
  _ZN5GpgME16DecryptionResultC2Ev@Base 15.07.90
- _ZN5GpgME16DecryptionResultD1Ev@Base 15.07.90
- _ZN5GpgME16DecryptionResultD2Ev@Base 15.07.90
  _ZN5GpgME16EncryptionResult4initEP13gpgme_context@Base 15.07.90
  _ZN5GpgME16EncryptionResultC1EP13gpgme_contextRKNS_5ErrorE@Base 15.07.90
  _ZN5GpgME16EncryptionResultC1EP13gpgme_contexti@Base 15.07.90
@@ -117,8 +111,6 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZN5GpgME16EncryptionResultC2EP13gpgme_contexti@Base 15.07.90
  _ZN5GpgME16EncryptionResultC2ERKNS_5ErrorE@Base 15.07.90
  _ZN5GpgME16EncryptionResultC2Ev@Base 15.07.90
- _ZN5GpgME16EncryptionResultD1Ev@Base 15.07.90
- _ZN5GpgME16EncryptionResultD2Ev@Base 15.07.90
  _ZN5GpgME16InvalidRecipientC1ERKN5boost10shared_ptrINS_16EncryptionResult7PrivateEEEj@Base 15.07.90
  _ZN5GpgME16InvalidRecipientC1Ev@Base 15.07.90
  _ZN5GpgME16InvalidRecipientC2ERKN5boost10shared_ptrINS_16EncryptionResult7PrivateEEEj@Base 15.07.90
@@ -139,8 +131,6 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZN5GpgME18VerificationResultC2EP13gpgme_contexti@Base 15.07.90
  _ZN5GpgME18VerificationResultC2ERKNS_5ErrorE@Base 15.07.90
  _ZN5GpgME18VerificationResultC2Ev@Base 15.07.90
- _ZN5GpgME18VerificationResultD1Ev@Base 15.07.90
- _ZN5GpgME18VerificationResultD2Ev@Base 15.07.90
  _ZN5GpgME19EventLoopInteractor5actOnEiNS0_9DirectionE@Base 15.07.90
  _ZN5GpgME19EventLoopInteractor5mSelfE@Base 15.07.90
  _ZN5GpgME19EventLoopInteractor6manageEPNS_7ContextE@Base 15.07.90
@@ -181,9 +171,9 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZN5GpgME24GpgSignKeyEditInteractorD0Ev@Base 15.07.90
  _ZN5GpgME24GpgSignKeyEditInteractorD1Ev@Base 15.07.90
  _ZN5GpgME24GpgSignKeyEditInteractorD2Ev@Base 15.07.90
- _ZN5GpgME26GpgAddUserIDEditInteractor11setNameUtf8ERKSs@Base 15.07.90
- _ZN5GpgME26GpgAddUserIDEditInteractor12setEmailUtf8ERKSs@Base 15.07.90
- _ZN5GpgME26GpgAddUserIDEditInteractor14setCommentUtf8ERKSs@Base 15.07.90
+ _ZN5GpgME26GpgAddUserIDEditInteractor11setNameUtf8ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:15.07.90
+ _ZN5GpgME26GpgAddUserIDEditInteractor12setEmailUtf8ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:15.07.90
+ _ZN5GpgME26GpgAddUserIDEditInteractor14setCommentUtf8ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:15.07.90
  _ZN5GpgME26GpgAddUserIDEditInteractorC1Ev@Base 15.07.90
  _ZN5GpgME26GpgAddUserIDEditInteractorC2Ev@Base 15.07.90
  _ZN5GpgME26GpgAddUserIDEditInteractorD0Ev@Base 15.07.90
@@ -197,8 +187,8 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZN5GpgME27ScdGetInfoAssuanTransactionD0Ev@Base 15.07.90
  _ZN5GpgME27ScdGetInfoAssuanTransactionD1Ev@Base 15.07.90
  _ZN5GpgME27ScdGetInfoAssuanTransactionD2Ev@Base 15.07.90
- _ZN5GpgME30GpgSetExpiryTimeEditInteractorC1ERKSs@Base 15.07.90
- _ZN5GpgME30GpgSetExpiryTimeEditInteractorC2ERKSs@Base 15.07.90
+ _ZN5GpgME30GpgSetExpiryTimeEditInteractorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:15.07.90
+ _ZN5GpgME30GpgSetExpiryTimeEditInteractorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:15.07.90
  _ZN5GpgME30GpgSetExpiryTimeEditInteractorD0Ev@Base 15.07.90
  _ZN5GpgME30GpgSetExpiryTimeEditInteractorD1Ev@Base 15.07.90
  _ZN5GpgME30GpgSetExpiryTimeEditInteractorD2Ev@Base 15.07.90
@@ -259,8 +249,6 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZN5GpgME5Error8fromCodeEjj@Base 15.07.90
  _ZN5GpgME5Error8setErrnoEi@Base 15.07.90
  _ZN5GpgME5Error9fromErrnoEij@Base 15.07.90
- _ZN5GpgME5ErrorD1Ev@Base 15.07.90
- _ZN5GpgME5ErrorD2Ev@Base 15.07.90
  _ZN5GpgME6ImportC1ERKN5boost10shared_ptrINS_12ImportResult7PrivateEEEj@Base 15.07.90
  _ZN5GpgME6ImportC1Ev@Base 15.07.90
  _ZN5GpgME6ImportC2ERKN5boost10shared_ptrINS_12ImportResult7PrivateEEEj@Base 15.07.90
@@ -373,8 +361,8 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZN5GpgME8NotationC2EP19_gpgme_sig_notation@Base 15.07.90
  _ZN5GpgME8NotationC2ERKN5boost10shared_ptrINS_18VerificationResult7PrivateEEEjj@Base 15.07.90
  _ZN5GpgME8NotationC2Ev@Base 15.07.90
- _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKSs@Base 15.07.90
- _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKSsNS0_7OptionsE@Base 15.07.90
+ _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:15.07.90
+ _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_7OptionsE@Base 4:15.07.90
  _ZN5GpgME9ExceptionD0Ev@Base 15.07.90
  _ZN5GpgME9ExceptionD1Ev@Base 15.07.90
  _ZN5GpgME9ExceptionD2Ev@Base 15.07.90
@@ -448,13 +436,13 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZNK5GpgME13Configuration6Option18createUIntArgumentEj@Base 15.07.90
  _ZNK5GpgME13Configuration6Option18defaultDescriptionEv@Base 15.07.90
  _ZNK5GpgME13Configuration6Option20createStringArgumentEPKc@Base 15.07.90
- _ZNK5GpgME13Configuration6Option20createStringArgumentERKSs@Base 15.07.90
+ _ZNK5GpgME13Configuration6Option20createStringArgumentERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:15.07.90
  _ZNK5GpgME13Configuration6Option21createIntListArgumentERKSt6vectorIiSaIiEE@Base 15.07.90
  _ZNK5GpgME13Configuration6Option21noArgumentDescriptionEv@Base 15.07.90
  _ZNK5GpgME13Configuration6Option22createNoneListArgumentEj@Base 15.07.90
  _ZNK5GpgME13Configuration6Option22createUIntListArgumentERKSt6vectorIjSaIjEE@Base 15.07.90
+ _ZNK5GpgME13Configuration6Option24createStringListArgumentERKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS8_EE@Base 4:15.07.90
  _ZNK5GpgME13Configuration6Option24createStringListArgumentERKSt6vectorIPKcSaIS4_EE@Base 15.07.90
- _ZNK5GpgME13Configuration6Option24createStringListArgumentERKSt6vectorISsSaISsEE@Base 15.07.90
  _ZNK5GpgME13Configuration6Option3setEv@Base 15.07.90
  _ZNK5GpgME13Configuration6Option4nameEv@Base 15.07.90
  _ZNK5GpgME13Configuration6Option4typeEv@Base 15.07.90
@@ -534,30 +522,30 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZNK5GpgME19KeyGenerationResult17isSubkeyGeneratedEv@Base 15.07.90
  _ZNK5GpgME19KeyGenerationResult21isPrimaryKeyGeneratedEv@Base 15.07.90
  _ZNK5GpgME19KeyGenerationResult6isNullEv@Base 15.07.90
- _ZNK5GpgME24DefaultAssuanTransaction10statusLineEPKc@Base 15.07.90
- _ZNK5GpgME24DefaultAssuanTransaction15firstStatusLineEPKc@Base 15.07.90
+ _ZNK5GpgME24DefaultAssuanTransaction10statusLineB5cxx11EPKc@Base 4:15.07.90
+ _ZNK5GpgME24DefaultAssuanTransaction15firstStatusLineB5cxx11EPKc@Base 4:15.07.90
  _ZNK5GpgME24GpgSignKeyEditInteractor6actionERNS_5ErrorE@Base 15.07.90
  _ZNK5GpgME24GpgSignKeyEditInteractor9nextStateEjPKcRNS_5ErrorE@Base 15.07.90
  _ZNK5GpgME26GpgAddUserIDEditInteractor6actionERNS_5ErrorE@Base 15.07.90
  _ZNK5GpgME26GpgAddUserIDEditInteractor9nextStateEjPKcRNS_5ErrorE@Base 15.07.90
- _ZNK5GpgME27ScdGetInfoAssuanTransaction10readerListEv@Base 15.07.90
- _ZNK5GpgME27ScdGetInfoAssuanTransaction10socketNameEv@Base 15.07.90
+ _ZNK5GpgME27ScdGetInfoAssuanTransaction10readerListB5cxx11Ev@Base 4:15.07.90
+ _ZNK5GpgME27ScdGetInfoAssuanTransaction10socketNameB5cxx11Ev@Base 4:15.07.90
  _ZNK5GpgME27ScdGetInfoAssuanTransaction11makeCommandEv@Base 15.07.90
- _ZNK5GpgME27ScdGetInfoAssuanTransaction15applicationListEv@Base 15.07.90
+ _ZNK5GpgME27ScdGetInfoAssuanTransaction15applicationListB5cxx11Ev@Base 4:15.07.90
  _ZNK5GpgME27ScdGetInfoAssuanTransaction3pidEv@Base 15.07.90
  _ZNK5GpgME27ScdGetInfoAssuanTransaction6statusEv@Base 15.07.90
  _ZNK5GpgME27ScdGetInfoAssuanTransaction7commandEv@Base 15.07.90
- _ZNK5GpgME27ScdGetInfoAssuanTransaction7versionEv@Base 15.07.90
+ _ZNK5GpgME27ScdGetInfoAssuanTransaction7versionB5cxx11Ev@Base 4:15.07.90
  _ZNK5GpgME30GpgSetExpiryTimeEditInteractor6actionERNS_5ErrorE@Base 15.07.90
  _ZNK5GpgME30GpgSetExpiryTimeEditInteractor9nextStateEjPKcRNS_5ErrorE@Base 15.07.90
  _ZNK5GpgME30GpgSetOwnerTrustEditInteractor6actionERNS_5ErrorE@Base 15.07.90
  _ZNK5GpgME30GpgSetOwnerTrustEditInteractor9nextStateEjPKcRNS_5ErrorE@Base 15.07.90
- _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction10socketNameEv@Base 15.07.90
+ _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction10socketNameB5cxx11Ev@Base 4:15.07.90
  _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction11makeCommandEv@Base 15.07.90
- _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction13sshSocketNameEv@Base 15.07.90
+ _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction13sshSocketNameB5cxx11Ev@Base 4:15.07.90
  _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction3pidEv@Base 15.07.90
  _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction7commandEv@Base 15.07.90
- _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction7versionEv@Base 15.07.90
+ _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction7versionB5cxx11Ev@Base 4:15.07.90
  _ZNK5GpgME3Key10canCertifyEv@Base 15.07.90
  _ZNK5GpgME3Key10canEncryptEv@Base 15.07.90
  _ZNK5GpgME3Key10isDisabledEv@Base 15.07.90
@@ -641,7 +629,7 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZNK5GpgME6UserID9Signature12signerUserIDEv@Base 15.07.90
  _ZNK5GpgME6UserID9Signature13signerCommentEv@Base 15.07.90
  _ZNK5GpgME6UserID9Signature14expirationTimeEv@Base 15.07.90
- _ZNK5GpgME6UserID9Signature14statusAsStringEv@Base 15.07.90
+ _ZNK5GpgME6UserID9Signature14statusAsStringB5cxx11Ev@Base 4:15.07.90
  _ZNK5GpgME6UserID9Signature17algorithmAsStringEv@Base 15.07.90
  _ZNK5GpgME6UserID9Signature6parentEv@Base 15.07.90
  _ZNK5GpgME6UserID9Signature6statusEv@Base 15.07.90
@@ -716,23 +704,20 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZNK5GpgME9TrustItem5keyIDEv@Base 15.07.90
  _ZNK5GpgME9TrustItem6isNullEv@Base 15.07.90
  _ZNK5GpgME9TrustItem6userIDEv@Base 15.07.90
- (optional=templinst)_ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag@Base 15.07.90
- (optional=templinst)_ZNSt4pairISsSsED1Ev@Base 15.07.90
- (optional=templinst)_ZNSt4pairISsSsED2Ev@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED1Ev@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED2Ev@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED1Ev@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED2Ev@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED1Ev@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED2Ev@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EE17_M_default_appendEm@Base 4:15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED1Ev@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE7reserveEm@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EED2Ev@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE7reserveEm@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE7reserveEm@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
@@ -742,15 +727,10 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EE7reserveEm@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EED2Ev@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EE19_M_emplace_back_auxIIRKS3_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EE19_M_emplace_back_auxIJRKS3_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EED1Ev@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE7reserveEm@Base 15.07.90
@@ -758,7 +738,6 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE7reserveEm@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
@@ -768,24 +747,24 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE7reserveEm@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE7reserveEm@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE7reserveEm@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EED2Ev@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE7reserveEm@Base 15.07.90
+ (optional=templinst|arch=i386)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=i386)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED2Ev@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIRKS5_EEEvDpOT_@Base 4:15.07.90
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 4:15.07.90
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIJRKS5_EEEvDpOT_@Base 4:15.07.90
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIJS5_EEEvDpOT_@Base 4:15.07.90
  (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE12emplace_backIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE12emplace_backIJS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE19_M_emplace_back_auxIIRKS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIPN5GpgME19EventLoopInteractor7Private5OneFDESaIS4_EE19_M_emplace_back_auxIIS4_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIPN5GpgME19EventLoopInteractor7Private5OneFDESaIS4_EE19_M_emplace_back_auxIJS4_EEEvDpOT_@Base 15.07.90
@@ -793,18 +772,13 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  (optional=templinst)_ZNSt6vectorIPcSaIS0_EE19_M_emplace_back_auxIJS0_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIS_IN5GpgME18VerificationResult7Private4NotaESaIS3_EESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIS_IN5GpgME18VerificationResult7Private4NotaESaIS3_EESaIS5_EE19_M_emplace_back_auxIJS5_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorISsSaISsEE19_M_emplace_back_auxIIRKSsEEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorISsSaISsEE19_M_emplace_back_auxIISsEEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorISsSaISsEE19_M_emplace_back_auxIJRKSsEEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorISsSaISsEE19_M_emplace_back_auxIJSsEEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorISt4pairISsSsESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorISt4pairISsSsESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIIRKiEEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJRKiEEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIIRKjEEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIJRKjEEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_ESaIS7_EE19_M_emplace_back_auxIIS7_EEEvDpOT_@Base 4:15.07.90
+ (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_ESaIS7_EE19_M_emplace_back_auxIJS7_EEEvDpOT_@Base 4:15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIIRKiEEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJRKiEEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIIRKjEEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=amd64)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIJRKjEEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIjSaIjEEaSERKS1_@Base 15.07.90
- (optional=templinst)_ZSt13binary_searchIPKccEbT_S2_RKT0_@Base 15.07.90
  _ZTIN5GpgME14EditInteractorE@Base 15.07.90
  _ZTIN5GpgME17AssuanTransactionE@Base 15.07.90
  _ZTIN5GpgME19EventLoopInteractorE@Base 15.07.90
@@ -836,7 +810,6 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZTSN5boost16exception_detail10clone_baseE@Base 15.07.90
  _ZTSN5boost9exceptionE@Base 15.07.90
  _ZTVN5GpgME14EditInteractorE@Base 15.07.90
- _ZTVN5GpgME17AssuanTransactionE@Base 15.07.90
  _ZTVN5GpgME19EventLoopInteractorE@Base 15.07.90
  _ZTVN5GpgME24DefaultAssuanTransactionE@Base 15.07.90
  _ZTVN5GpgME24GpgSignKeyEditInteractorE@Base 15.07.90
