@@ -1,0 +1,65 @@
+# SymbolsHelper-Confirmed: 4:15.07.90 amd64 i386
+libKF5QGpgme.so.5 libkf5qgpgme5 #MINVER#
+ _ZN6QGpgME19EventLoopInteractor11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor11qt_metacastEPKc@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor12nextKeyEventEPN5GpgME7ContextERKNS1_3KeyE@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor14aboutToDestroyEv@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor15registerWatcherEiN5GpgME19EventLoopInteractor9DirectionERb@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor16slotReadActivityEi@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor16staticMetaObjectE@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor17slotWriteActivityEi@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor17unregisterWatcherEPv@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor18nextKeyEventSignalEPN5GpgME7ContextERKNS1_3KeyE@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor18nextTrustItemEventEPN5GpgME7ContextERKNS1_9TrustItemE@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor18operationDoneEventEPN5GpgME7ContextERKNS1_5ErrorE@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor19operationStartEventEPN5GpgME7ContextE@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor24nextTrustItemEventSignalEPN5GpgME7ContextERKNS1_9TrustItemE@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor24operationDoneEventSignalEPN5GpgME7ContextERKNS1_5ErrorE@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor25operationStartEventSignalEPN5GpgME7ContextE@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor5mSelfE@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractor8instanceEv@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractorC1EP7QObject@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractorC2EP7QObject@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractorD0Ev@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractorD1Ev@Base 15.07.90
+ _ZN6QGpgME19EventLoopInteractorD2Ev@Base 15.07.90
+ (subst)_ZN6QGpgME21QIODeviceDataProvider4readEPv{size_t}@Base 15.07.90
+ (subst)_ZN6QGpgME21QIODeviceDataProvider4seekE{int64_t}i@Base 15.07.90
+ (subst)_ZN6QGpgME21QIODeviceDataProvider5writeEPKv{size_t}@Base 15.07.90
+ _ZN6QGpgME21QIODeviceDataProvider7releaseEv@Base 15.07.90
+ _ZN6QGpgME21QIODeviceDataProviderC1ERKN5boost10shared_ptrI9QIODeviceEE@Base 15.07.90
+ _ZN6QGpgME21QIODeviceDataProviderC2ERKN5boost10shared_ptrI9QIODeviceEE@Base 15.07.90
+ _ZN6QGpgME21QIODeviceDataProviderD0Ev@Base 15.07.90
+ _ZN6QGpgME21QIODeviceDataProviderD1Ev@Base 15.07.90
+ _ZN6QGpgME21QIODeviceDataProviderD2Ev@Base 15.07.90
+ (subst)_ZN6QGpgME22QByteArrayDataProvider4readEPv{size_t}@Base 15.07.90
+ (subst)_ZN6QGpgME22QByteArrayDataProvider4seekE{int64_t}i@Base 15.07.90
+ (subst)_ZN6QGpgME22QByteArrayDataProvider5writeEPKv{size_t}@Base 15.07.90
+ _ZN6QGpgME22QByteArrayDataProvider7releaseEv@Base 15.07.90
+ _ZN6QGpgME22QByteArrayDataProviderC1ERK10QByteArray@Base 15.07.90
+ _ZN6QGpgME22QByteArrayDataProviderC1Ev@Base 15.07.90
+ _ZN6QGpgME22QByteArrayDataProviderC2ERK10QByteArray@Base 15.07.90
+ _ZN6QGpgME22QByteArrayDataProviderC2Ev@Base 15.07.90
+ _ZN6QGpgME22QByteArrayDataProviderD0Ev@Base 15.07.90
+ _ZN6QGpgME22QByteArrayDataProviderD1Ev@Base 15.07.90
+ _ZN6QGpgME22QByteArrayDataProviderD2Ev@Base 15.07.90
+ _ZNK6QGpgME19EventLoopInteractor10metaObjectEv@Base 15.07.90
+ _ZNK6QGpgME21QIODeviceDataProvider11isSupportedEN5GpgME12DataProvider9OperationE@Base 15.07.90
+ _ZTIN5GpgME12DataProviderE@Base 15.07.90
+ _ZTIN6QGpgME19EventLoopInteractorE@Base 15.07.90
+ _ZTIN6QGpgME21QIODeviceDataProviderE@Base 15.07.90
+ _ZTIN6QGpgME22QByteArrayDataProviderE@Base 15.07.90
+ _ZTSN5GpgME12DataProviderE@Base 15.07.90
+ _ZTSN6QGpgME19EventLoopInteractorE@Base 15.07.90
+ _ZTSN6QGpgME21QIODeviceDataProviderE@Base 15.07.90
+ _ZTSN6QGpgME22QByteArrayDataProviderE@Base 15.07.90
+ _ZTVN6QGpgME19EventLoopInteractorE@Base 15.07.90
+ _ZTVN6QGpgME21QIODeviceDataProviderE@Base 15.07.90
+ _ZTVN6QGpgME22QByteArrayDataProviderE@Base 15.07.90
+ (c++)"non-virtual thunk to QGpgME::EventLoopInteractor::nextKeyEvent(GpgME::Context*, GpgME::Key const&)@Base" 15.07.90
+ (c++)"non-virtual thunk to QGpgME::EventLoopInteractor::nextTrustItemEvent(GpgME::Context*, GpgME::TrustItem const&)@Base" 15.07.90
+ (c++)"non-virtual thunk to QGpgME::EventLoopInteractor::operationDoneEvent(GpgME::Context*, GpgME::Error const&)@Base" 15.07.90
+ (c++)"non-virtual thunk to QGpgME::EventLoopInteractor::operationStartEvent(GpgME::Context*)@Base" 15.07.90
+ (c++)"non-virtual thunk to QGpgME::EventLoopInteractor::registerWatcher(int, GpgME::EventLoopInteractor::Direction, bool&)@Base" 15.07.90
+ (c++)"non-virtual thunk to QGpgME::EventLoopInteractor::unregisterWatcher(void*)@Base" 15.07.90
+ (c++)"non-virtual thunk to QGpgME::EventLoopInteractor::~EventLoopInteractor()@Base" 15.07.90
