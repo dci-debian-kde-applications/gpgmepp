@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64 i386
+# SymbolsHelper-Confirmed: 15.08.1+git20150917.1103+15.10 amd64 i386
 libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 15.07.90
  _ZN5GpgME10EngineInfoC1Ev@Base 15.07.90
@@ -273,6 +273,7 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZN5GpgME6UserIDC2Ev@Base 15.07.90
  _ZN5GpgME7Context10importKeysERKNS_4DataE@Base 15.07.90
  _ZN5GpgME7Context10importKeysERKSt6vectorINS_3KeyESaIS2_EE@Base 15.07.90
+ _ZN5GpgME7Context10setOfflineEb@Base 15.08.1+git20150917.1103+15.10
  _ZN5GpgME7Context11generateKeyEPKcRNS_4DataE@Base 15.07.90
  _ZN5GpgME7Context11getAuditLogERNS_4DataEj@Base 15.07.90
  _ZN5GpgME7Context11setTextModeEb@Base 15.07.90
@@ -666,6 +667,7 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZNK5GpgME7Context22lastCardEditInteractorEv@Base 15.07.90
  _ZNK5GpgME7Context28managedByEventLoopInteractorEv@Base 15.07.90
  _ZNK5GpgME7Context5armorEv@Base 15.07.90
+ _ZNK5GpgME7Context7offlineEv@Base 15.08.1+git20150917.1103+15.10
  _ZNK5GpgME7Context8protocolEv@Base 15.07.90
  _ZNK5GpgME7Context8textModeEv@Base 15.07.90
  _ZNK5GpgME7Context9lastErrorEv@Base 15.07.90
