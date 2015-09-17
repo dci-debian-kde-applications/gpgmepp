@@ -44,7 +44,7 @@ Depends: libboost-dev,
          libkf5gpgmepp-pthread5 (= ${binary:Version}),
          libkf5gpgmepp5 (= ${binary:Version}),
          libkf5qgpgme5 (= ${binary:Version}),
-         qtbase5-dev,
+         qtbase5-dev (>= 5.2.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: c++ wrapper library for gpgme - development files
