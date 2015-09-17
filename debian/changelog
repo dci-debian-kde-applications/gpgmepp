@@ -1,6 +1,10 @@
 gpgmepp (15.08.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
   * New upstream release (15.18.1)
+
+  [ Harald Sitter ]
+  * Fix version symbols were confirmed against
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 16 Sep 2015 22:48:39 +0100
 
