@@ -2,7 +2,6 @@ gpgmepp (15.08.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Clive Johnston ]
   * New upstream release (15.08.1)
-  * Updating symbols files for i386 and amd64
 
   [ Harald Sitter ]
   * Fix version symbols were confirmed against
