@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64 i386
+# SymbolsHelper-Confirmed: 15.08.1 amd64 i386
 libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 15.07.90
  _ZN5GpgME10EngineInfoC1Ev@Base 15.07.90
