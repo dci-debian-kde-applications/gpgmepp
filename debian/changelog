@@ -3,6 +3,7 @@ gpgmepp (15.08.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Clive Johnston ]
   * New upstream release (15.08.1)
   * Updating symbols files
+  * Removing 4: epoch from symbols files
 
   [ Harald Sitter ]
   * Fix version symbols were confirmed against
