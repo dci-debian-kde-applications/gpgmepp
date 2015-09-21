@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.08.1+git20150917.1103+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 15.08.1 i386
 libKF5Gpgmepp.so.5 libkf5gpgmepp5 #MINVER#
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 15.07.90
  _ZN5GpgME10EngineInfoC1Ev@Base 15.07.90
