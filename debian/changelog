@@ -1,4 +1,4 @@
-gpgmepp (15.08.1-0ubuntu1) UNRELEASED; urgency=medium
+gpgmepp (15.08.1-0ubuntu1) wily; urgency=medium
 
   [ Clive Johnston ]
   * New upstream release (15.08.1)
@@ -8,7 +8,7 @@ gpgmepp (15.08.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * Fix version symbols were confirmed against
 
- -- Clive Johnston <clivejo@aol.com>  Wed, 16 Sep 2015 22:48:39 +0100
+ -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:08:04 +0100
 
 gpgmepp (15.08.0-0ubuntu1) wily; urgency=medium
 
