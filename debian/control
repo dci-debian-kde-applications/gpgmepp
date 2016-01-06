@@ -5,11 +5,11 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.12.0~),
+               extra-cmake-modules (>= 5.14.0~),
                libboost-dev,
                libgpgme11-dev,
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.2.0~)
+               qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/pim/gpgmepp
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/gpgmepp.git
@@ -44,7 +44,7 @@ Depends: libboost-dev,
          libkf5gpgmepp-pthread5 (= ${binary:Version}),
          libkf5gpgmepp5 (= ${binary:Version}),
          libkf5qgpgme5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.2.0~),
+         qtbase5-dev (>= 5.4.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: c++ wrapper library for gpgme - development files
