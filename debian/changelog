@@ -2,6 +2,7 @@ gpgmepp (15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Clive Johnston ]
   * New upstream release
+  * Fixed install files
 
   [ Philip Muškovac ]
   * Merge with debian git master
