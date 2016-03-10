@@ -1,4 +1,4 @@
-gpgmepp (15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+gpgmepp (15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
   * New upstream release
@@ -7,7 +7,7 @@ gpgmepp (15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Philip Muškovac ]
   * Merge with debian git master
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:29:40 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 10:24:32 +0100
 
 gpgmepp (15.08.2-0ubuntu1) wily; urgency=medium
 
