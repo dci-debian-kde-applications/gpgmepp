@@ -1,3 +1,14 @@
+gpgmepp (16.04.0-1~1.gbp4b6e2c) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @4b6e2c98d2e8195acb7fc52853e4210389e29edd **
+
+  * Bump Standards-Version to 3.9.8
+  * Update symbols files from buildds logs (15.12.0-2).
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 00:46:11 +0200
+
 gpgmepp (15.12.0-2) experimental; urgency=medium
 
   * Update symbols files from buildds logs (15.12.0-1).
