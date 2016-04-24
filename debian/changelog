@@ -1,6 +1,6 @@
-gpgmepp (16.04.0-1~2.gbp598c47) UNRELEASED; urgency=medium
+gpgmepp (16.04.0-1~3.gbp5b4134) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @598c47f812245dafb187c147bd576e74bdab586f **
+  ** SNAPSHOT build @5b413446779b14cf7bfb369dac29db49bd3035ff **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @4b6e2c98d2e8195acb7fc52853e4210389e29edd **
@@ -15,8 +15,9 @@ gpgmepp (16.04.0-1~2.gbp598c47) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
+  * Update install files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 21 Apr 2016 21:36:37 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 24 Apr 2016 11:46:15 +0200
 
 gpgmepp (15.12.0-2) experimental; urgency=medium
 
