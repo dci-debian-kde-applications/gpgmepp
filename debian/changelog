@@ -1,6 +1,6 @@
-gpgmepp (16.04.0-1~5.gbpe0e276) UNRELEASED; urgency=medium
+gpgmepp (16.04.0-1~6.gbp5b1c78) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e0e2763cc382d46877beaeb22854c4fc2a8172cc **
+  ** SNAPSHOT build @5b1c78b58dc79ccff57dc47be3f7f8cd9183dd6f **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @4b6e2c98d2e8195acb7fc52853e4210389e29edd **
@@ -10,6 +10,7 @@ gpgmepp (16.04.0-1~5.gbpe0e276) UNRELEASED; urgency=medium
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
+  * UNRELEASED
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -19,7 +20,7 @@ gpgmepp (16.04.0-1~5.gbpe0e276) UNRELEASED; urgency=medium
   * Update install files
   * Update install files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 27 Apr 2016 08:46:23 +0200
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Sat, 30 Apr 2016 20:04:45 +0200
 
 gpgmepp (15.12.0-2) experimental; urgency=medium
 
