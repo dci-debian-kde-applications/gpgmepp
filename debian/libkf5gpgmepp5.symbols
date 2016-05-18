@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 16.04.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 16.04.1 hppa sparc64
 libKF5Gpgmepp.so.5 libkf5gpgmepp5 #MINVER#
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 15.07.90
  _ZN5GpgME10EngineInfoC1Ev@Base 15.07.90
@@ -707,87 +707,87 @@ libKF5Gpgmepp.so.5 libkf5gpgmepp5 #MINVER#
  _ZNK5GpgME9TrustItem5keyIDEv@Base 15.07.90
  _ZNK5GpgME9TrustItem6isNullEv@Base 15.07.90
  _ZNK5GpgME9TrustItem6userIDEv@Base 15.07.90
- (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 kfreebsd-i386 mips64el ppc64 ppc64el s390x)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 kfreebsd-i386 mips64el ppc64 ppc64el s390x sparc64)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
  (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 kfreebsd-i386 mips64el ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 15.07.90
  (optional=templinst|arch=alpha amd64 arm64 armel armhf hppa kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED1Ev@Base 15.07.90
  (optional=templinst|arch=alpha amd64 arm64 armel armhf hppa kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED2Ev@Base 15.07.90
  (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 kfreebsd-i386 mips64el ppc64 ppc64el s390x sparc64 x32|subst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EE17_M_default_appendE{size_t}@Base 15.07.90
  (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 kfreebsd-i386 mips64el ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED1Ev@Base 15.07.90
  (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 kfreebsd-i386 mips64el ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED2Ev@Base 15.07.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst|arch=x32)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE7reserveEj@Base 15.12.0
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EED2Ev@Base 15.07.90
- (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 kfreebsd-i386 mips64el ppc64 ppc64el s390x)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 kfreebsd-i386 mips64el ppc64 ppc64el s390x sparc64)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
  (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 kfreebsd-i386 mips64el ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 15.07.90
  (optional=templinst|arch=amd64 kfreebsd-amd64 kfreebsd-i386 ppc64 ppc64el x32|subst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE7reserveE{size_t}@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EED2Ev@Base 15.07.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst|subst|arch=amd64 armel hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 x32)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EE7reserveE{size_t}@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EED2Ev@Base 15.07.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst|arch=x32)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EE7reserveEj@Base 15.12.0
  (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EED2Ev@Base 15.07.90
- (optional=templinst|arch=hppa sparc64 x32)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EE19_M_emplace_back_auxIJRKS3_EEEvDpOT_@Base 15.12.0
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=x32)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EE19_M_emplace_back_auxIJRKS3_EEEvDpOT_@Base 15.12.0
+ (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips64el !ppc64 !ppc64el !x32)_ZNSt6vectorIN5GpgME3KeyESaIS1_EED1Ev@Base 15.08.0
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips64el !ppc64 !ppc64el !x32)_ZNSt6vectorIN5GpgME3KeyESaIS1_EED2Ev@Base 15.08.0
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst|subst|arch=amd64 armel hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 x32)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE7reserveE{size_t}@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EED2Ev@Base 15.07.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst|arch=x32)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE7reserveEj@Base 15.12.0
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED2Ev@Base 15.07.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 15.07.90
  (optional=templinst|subst|arch=!mips !mips64el !mipsel !powerpc !ppc64 !ppc64el)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE7reserveE{size_t}@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EED2Ev@Base 15.07.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst|arch=x32)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE7reserveEj@Base 15.12.0
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED2Ev@Base 15.07.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst|arch=amd64 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 ppc64el x32|subst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE7reserveE{size_t}@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EED2Ev@Base 15.07.90
- (optional=templinst|arch=armel armhf hurd-i386 i386 mips mipsel powerpc)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst|arch=armel armhf hppa hurd-i386 i386 mips mipsel powerpc sparc64 x32)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=armel armhf hppa hurd-i386 i386 mips mipsel powerpc)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=armel armhf hppa hurd-i386 i386 mips mipsel powerpc x32)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst|arch=x32)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE7reserveEj@Base 15.12.0
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED2Ev@Base 15.07.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIRKS5_EEEvDpOT_@Base 15.07.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIRKS5_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIJRKS5_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIJS5_EEEvDpOT_@Base 15.07.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIPKcSaIS1_EE12emplace_backIIS1_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE12emplace_backIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE12emplace_backIJS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIPKcSaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIPN5GpgME19EventLoopInteractor7Private5OneFDESaIS4_EE19_M_emplace_back_auxIIS4_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorIPN5GpgME19EventLoopInteractor7Private5OneFDESaIS4_EE19_M_emplace_back_auxIIS4_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIPN5GpgME19EventLoopInteractor7Private5OneFDESaIS4_EE19_M_emplace_back_auxIJS4_EEEvDpOT_@Base 15.07.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIPcSaIS0_EE19_M_emplace_back_auxIIS0_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorIPcSaIS0_EE19_M_emplace_back_auxIIS0_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIPcSaIS0_EE19_M_emplace_back_auxIJS0_EEEvDpOT_@Base 15.07.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIS_IN5GpgME18VerificationResult7Private4NotaESaIS3_EESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorIS_IN5GpgME18VerificationResult7Private4NotaESaIS3_EESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIS_IN5GpgME18VerificationResult7Private4NotaESaIS3_EESaIS5_EE19_M_emplace_back_auxIJS5_EEEvDpOT_@Base 15.07.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_ESaIS7_EE19_M_emplace_back_auxIIS7_EEEvDpOT_@Base 15.07.90
+ (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_ESaIS7_EE19_M_emplace_back_auxIIS7_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_ESaIS7_EE19_M_emplace_back_auxIJS7_EEEvDpOT_@Base 15.07.90
- (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 mips64el ppc64 ppc64el s390x)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIIRKiEEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 mips64el ppc64 ppc64el s390x sparc64)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIIRKiEEEvDpOT_@Base 15.07.90
  (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 mips64el ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJRKiEEEvDpOT_@Base 15.07.90
- (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 mips64el ppc64 ppc64el s390x)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIIRKjEEEvDpOT_@Base 15.07.90
+ (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 mips64el ppc64 ppc64el s390x sparc64)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIIRKjEEEvDpOT_@Base 15.07.90
  (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 mips64el ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIJRKjEEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIjSaIjEEaSERKS1_@Base 15.07.90
  _ZTIN5GpgME14EditInteractorE@Base 15.07.90
