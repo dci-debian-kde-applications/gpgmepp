@@ -1,11 +1,9 @@
-gpgmepp (16.04.2-1~1.gbp55ed87) UNRELEASED; urgency=medium
+gpgmepp (16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @55ed870ac0bee14890e663b21974e8441b85a37c **
-
+  [ Automatic packaging ]
   * Update symbols files with the buildds results
-  * UNRELEASED
 
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 06:46:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Jun 2016 08:04:39 +0200
 
 gpgmepp (16.04.1-1) unstable; urgency=medium
 
