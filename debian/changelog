@@ -1,11 +1,9 @@
-gpgmepp (16.04.3-1~1.gbp805a21) UNRELEASED; urgency=medium
+gpgmepp (16.04.3-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @805a21638121631f6c5f3befb6200440af363d6a **
-
+  [ Automatic packaging ]
   * Update symbols files with the buildds results
-  * UNRELEASED
 
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Wed, 13 Jul 2016 00:46:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 16 Jul 2016 11:18:21 +0200
 
 gpgmepp (16.04.2-1) unstable; urgency=medium
 
