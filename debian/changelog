@@ -1,8 +1,22 @@
-gpgmepp (16.04.1-0neon) xenial; urgency=medium
+gpgmepp (16.04.3-1) unstable; urgency=medium
 
-  * New release
+  [ Automatic packaging ]
+  * Update symbols files with the buildds results
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:11:38 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 16 Jul 2016 11:18:21 +0200
+
+gpgmepp (16.04.2-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update symbols files with the buildds results
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Jun 2016 08:04:39 +0200
+
+gpgmepp (16.04.1-1) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 18 May 2016 18:07:35 +0200
 
 gpgmepp (16.04.0-1) experimental; urgency=medium
 
@@ -12,6 +26,7 @@ gpgmepp (16.04.0-1) experimental; urgency=medium
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
+  * UNRELEASED
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
