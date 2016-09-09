@@ -1,10 +1,11 @@
-gpgmepp (16.08.0-1~1.gbp3fcfdb) UNRELEASED; urgency=medium
+gpgmepp (16.08.1-1~1.gbp422a14) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @3fcfdbf56f545f04f2bcdc18bba8fd7e99adf6a9 **
+  ** SNAPSHOT build @422a14183415e4000d092594db1dbc7218da868d **
 
   * Update build-deps and deps with the info from cmake
+  * Update symbols files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 00:46:32 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 13:34:09 +0200
 
 gpgmepp (16.04.3-1) unstable; urgency=medium
 
