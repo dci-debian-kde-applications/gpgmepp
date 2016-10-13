@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 16.08.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 16.08.1 i386
 libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 15.07.90
  _ZN5GpgME10EngineInfoC1Ev@Base 15.07.90
@@ -763,7 +763,7 @@ libKF5Gpgmepp-pthread.so.5 libkf5gpgmepp-pthread5 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED2Ev@Base 15.07.90
  (optional=templinst|arch=!amd64 !armhf !i386)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 15.07.90
- (optional=templinst|arch=amd64 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 ppc64el x32|subst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE7reserveE{size_t}@Base 15.07.90
+ (optional=templinst|arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 ppc64el x32|subst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE7reserveE{size_t}@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EED2Ev@Base 15.07.90
  (optional=templinst|arch=armel hppa hurd-i386 mips mipsel powerpc)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 15.07.90
